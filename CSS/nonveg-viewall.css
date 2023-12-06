@@ -1,0 +1,131 @@
+
+/* nonveg all styles */
+
+.nonveg-all-container {
+    width: 100%;
+    height: 100%;
+}
+
+.nonveg-all-container .nonveg-all-heading {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.nonveg-all-container .nonveg-all-heading h1 {
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+.nonveg-all-container .nonveg-all-img {
+    width: 100%;
+    height: 150px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    overflow: hidden;
+}
+
+.nonveg-all-container .nonveg-all-img img {
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    object-fit: cover;
+    transition: all .2s linear;
+}
+
+.nonveg-all-container .nonveg-all-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-size: 28px;
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    text-align: center;
+    /* color: #000; */
+}
+
+.nonveg-all-container .nonveg-all-btn {
+    width: auto;
+    height: auto;
+    padding: 10px;
+    background: rgb(255, 116, 47);
+}
+
+.nonveg-all-container .nonveg-all-btn a {
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 10px;
+    color: #fff;
+}
+
+.nonveg-all-container .nonveg-all-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 20px;
+    column-gap: 20px;
+    justify-content: start;
+    align-items: center;
+    padding: 20px;
+}
+
+.nonveg-all-container .nonveg-all-card {
+    width: 100%;
+    background: #000;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-radius: 8px;
+}
+
+.nonveg-all-container .back-icon-div {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 40px;
+    /* margin: 20px; */
+}
+
+.nonveg-all-container .back-icon {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nonveg-all-container .back-icon img {
+    width: 100%;
+    height: 100%;
+}
+
+.nonveg-all-container .nonveg-all-card:hover .nonveg-all-img img {
+    transform: scale(1.1) !important;
+}
+
+@media screen and (min-width: 992px) {
+    .nonveg-all-container .nonveg-all-cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .nonveg-all-container .nonveg-all-img {
+        height: 300px;
+    }
+    .nonveg-all-container .nonveg-all-img img {
+        object-fit: cover;
+    }
+}

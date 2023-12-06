@@ -1,0 +1,148 @@
+
+/* sign up styles */
+
+.sign-up-section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 50px;
+}
+
+.sign-up-section .sub-sign-up {
+    width: 80%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-section .sign-up-img {
+    width: 700px;
+    height: 700px;
+}
+
+.sign-up-section .sign-up-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sign-up-section .sign-up-text {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+.sign-up-section .sign-up-form {
+    width: 100%;
+}
+
+.sign-up-section .sign-up-text h1 {
+    color: #000;
+    font-weight: bold;
+
+}
+
+.sign-up-section .sign-up-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-section .sign-up-content input {
+    width: 200px;
+    height: 30px;
+    border-style: none;
+    background: transparent;
+    outline: none;
+    color: #000;
+}
+
+.sign-up-section .sign-up-underline {
+    width: 200px;
+    height: 1px;
+    background: #000;
+    border-radius: 12px;
+}
+
+::placeholder {
+    text-transform: capitalize;
+    font-size: 16px;
+    color: #000;
+}
+
+.sign-up-section .sign-up-button {
+    width: 70px;
+    height: 30px;
+    background: rgb(81, 58, 255);
+    border-style: none;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .1s linear;
+    margin-bottom: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.sign-up-section .sign-up-button a {
+    text-transform: capitalize;
+}
+
+.sign-up-section .sign-up-button:hover {
+    background: rgb(39, 16, 208);
+    cursor: pointer;
+}
+
+.sign-up-section h4 {
+    color: #000;
+    text-transform: capitalize;
+}
+
+.sign-up-section .login a {
+    color: rgb(81, 58, 255);
+    text-transform: capitalize;
+}
+
+.sign-up-section .sign-up-content .login:hover {
+    transform: translateY(-3px);
+}
+
+.sign-up-section .back-icon-div {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.sign-up-section .back-icon {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-section .back-icon img {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 729px) {
+    .sign-up-section .sign-up-img  {
+        display: none;
+    }
+}

@@ -1,0 +1,205 @@
+
+/* login page styles */
+
+.main-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.main-container .back-icon-div {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+}
+
+.main-container .back-icon {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container .back-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.main-container .sub-main-container {
+    width: 80%;
+    height: 60%;
+}
+
+.main-container .img-container {
+    width: 700px;
+    width: 700px;
+}
+
+.main-container .input-main-div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 2;
+}
+
+.main-container .img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main-container .login-icon {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container .login-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main-container .input-card {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    column-gap: 10px;
+    border:0px 0px 2px 0px black;
+    background: #bfbcbc;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+.main-container .input-card input {
+    border-style: none;
+    font-size: 10px;
+    outline: none;
+    color: #000;
+    background: transparent;
+    height: 100%;
+    width: 100%;
+}
+
+.main-container .content-box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+::placeholder {
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.main-container .login-text {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container .login-text h1 {
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.login-btn {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.login-btn .login-button {
+    width: 25%;
+    height: 30px;
+    background: rgb(81, 58, 255);
+    border-style: none;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .1s linear;
+}
+
+.login-btn .login-button:hover {
+    background: rgb(39, 16, 208);
+}
+
+.login-btn .login-button a {
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.main-container .signUp-text {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container .signUp-text p {
+    color: #000;
+}
+
+.main-container .signUp-text #signup a {
+    color: rgb(81, 58, 255);
+    text-transform: capitalize;
+}
+
+.main-container .login-icons {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    column-gap: 5px;
+}
+
+@media screen and (max-width: 729px) {
+    .main-container .img-container img {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 729px) {
+    .sub-main-container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

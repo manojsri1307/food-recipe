@@ -1,0 +1,136 @@
+
+/* Recipies styles */
+
+.recipe-back-icon-div {
+    width: 100%;
+    height: 40%;
+}
+
+.recipe-back-icon {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    margin: 15px;
+}
+
+.recipe-back-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.recipe-main-container {
+    width: 100%;
+    height: 100%;
+}
+
+.recipe-main-container .recipe-heading {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.recipe-main-container .recipe-heading h1 {
+    font-size: 42px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.recipe-main-container .recipe-img-main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recipe-main-container .recipe-img {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+.recipe-main-container .recipe-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.recipe-main-container .recipe-content {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+.recipe-content-heading h2 {
+    font-size: 26px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.recipe-main-container .recipie-list {
+    margin-left: 20px;
+}
+
+.recipe-main-container .recipie-list ul li {
+    list-style: disc;
+    letter-spacing: 1px;
+}
+
+.recipe-main-container .recipie-list ul {
+    margin: 10px;
+}
+
+#para {
+    margin-left: 50px;
+    letter-spacing: 1px;
+}
+
+.recipe-end-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    margin-top: 60px;
+}
+
+.recipe-main-container .recipe-para {
+    margin-top: 50px;
+}
+
+@media screen and (min-width: 1024px) {
+    .recipe-main-container .recipe-img {
+        width: 900px;
+        height: 550px;
+    }
+
+    .recipe-content-heading h2 {
+        font-size: 38px;
+    }
+
+    .recipie-list h3 {
+        font-size: 26px;
+    }
+
+    .recipe-content {
+        margin-top: 20px;
+    }
+
+    .recipie-list {
+        font-size: 24px;
+    }
+
+    .recipe-para {
+        font-size: 24px;
+    }
+
+    .recipe-content-heading {
+        padding: 100px;
+    }
+}
